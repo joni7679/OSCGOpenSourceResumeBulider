@@ -4,10 +4,20 @@ A powerful and user-friendly **Resume Builder** web application with Firebase au
 
 ---
 
-##  Live Preview
+## Environment Variables
 
-[🔗 View Live Website](https://your-live-link.com)  
-(Replace with your deployed site link)
+Create a `.env` file in the root directory:
+
+VITE_FIREBASE_API_KEY=your_key
+VITE_FIREBASE_AUTH_DOMAIN=your_domain
+VITE_FIREBASE_PROJECT_ID=your_project_id
+VITE_FIREBASE_STORAGE_BUCKET=your_bucket
+VITE_FIREBASE_MESSAGING_SENDER_ID=your_sender_id
+VITE_FIREBASE_APP_ID=your_app_id
+
+⚠️ Never push `.env` to GitHub  
+Make sure `.env` is added to `.gitignore`
+
 
 ---
 
